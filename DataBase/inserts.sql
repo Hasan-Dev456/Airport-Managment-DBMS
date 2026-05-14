@@ -35,24 +35,24 @@ INSERT INTO hangars VALUES
 (10, 'H10', 'Remote Hangar', 3);
 
 INSERT INTO employees VALUES
-('SSN101', 'Ahmed Hassan', '0551234567', 3500, 'UN1001'),
-('SSN102', 'Ali Salem', '0552223344', 4200, 'UN1002'),
-('SSN103', 'Omar Khaled', '0553334455', 5000, 'UN1003'),
-('SSN104', 'Mohammed Yasin', '0554445566', 3900, 'UN1004'),
-('SSN105', 'Khaled Nasser', '0555556677', 4600, 'UN1005'),
-('SSN106', 'Sami Abdullah', '0556667788', 5200, 'UN1006'),
-('SSN107', 'Tariq Saleh', '0557778899', 4100, 'UN1007'),
-('SSN108', 'Yousef Ibrahim', '0558889900', 3700, 'UN1008');
+('EID101', 'Ahmed Hassan', '0551234567', 3500, 'UN1001'),
+('EID102', 'Ali Salem', '0552223344', 4200, 'UN1002'),
+('EID103', 'Murat Yildiz', '0553334455', 5000, 'UN1003'),
+('EID104', 'Mohammed Yasin', '0554445566', 3900, 'UN1004'),
+('EID105', 'Khaled Nasser', '0555556677', 4600, 'UN1005'),
+('EID106', 'Arda Demir', '0556667788', 5200, 'UN1006'),
+('EID107', 'Tariq Saleh', '0557778899', 4100, 'UN1007'),
+('EID108', 'Yousef Ibrahim', '0558889900', 3700, 'UN1008');
 
 INSERT INTO technicians VALUES
-(1, 'SSN101'),
-(2, 'SSN102'),
-(3, 'SSN104'),
-(4, 'SSN105'),
-(5, 'SSN106'),
-(6, 'SSN107'),
-(7, 'SSN108'),
-(8, 'SSN103');
+(1, 'EID101'),
+(2, 'EID102'),
+(3, 'EID104'),
+(4, 'EID105'),
+(5, 'EID106'),
+(6, 'EID107'),
+(7, 'EID108'),
+(8, 'EID103');
 
 INSERT INTO tests VALUES
 (1, 'Engine Test', 100),

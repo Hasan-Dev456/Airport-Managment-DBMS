@@ -20,7 +20,7 @@ CREATE TABLE hangars (
     capacity INT
 );
 CREATE TABLE employees (
-    ssn VARCHAR(20) PRIMARY KEY,
+    employee_id VARCHAR(20) PRIMARY KEY,
     full_name VARCHAR(100),
     phone VARCHAR(20),
     salary DECIMAL(10,2),
@@ -36,8 +36,8 @@ CREATE TABLE hangar_history (
 
 CREATE TABLE technicians (
     technician_id INT PRIMARY KEY,
-    ssn VARCHAR(20),
-    FOREIGN KEY (ssn) REFERENCES employees(ssn)
+    employee_id VARCHAR(20),
+    FOREIGN KEY (employee_id) REFERENCES employees(employee_id)
 );
 
 CREATE TABLE tests (
