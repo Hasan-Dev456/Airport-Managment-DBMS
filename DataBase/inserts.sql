@@ -42,7 +42,10 @@ INSERT INTO employees VALUES
 ('EID105', 'Khaled Nasser', '0555556677', 4600, 'UN1005'),
 ('EID106', 'Arda Demir', '0556667788', 5200, 'UN1006'),
 ('EID107', 'Tariq Saleh', '0557778899', 4100, 'UN1007'),
-('EID108', 'Yousef Ibrahim', '0558889900', 3700, 'UN1008');
+('EID108', 'Yousef Ibrahim', '0558889900', 3700, 'UN1008'),
+('EID109', 'Omar Khalil', '0559991122', 4800, 'UN1009'),
+('EID110', 'Hakan Kaya', '0551112233', 5100, 'UN1010'),
+('EID111', 'Ibrahim Mansour', '0552224455', 4700, 'UN1011');
 
 INSERT INTO technicians VALUES
 (1, 'EID101'),
@@ -76,6 +79,37 @@ INSERT INTO hangar_history VALUES
 (7, 7, 7, '2026-05-07 09:15:00', '2026-05-08 11:45:00'),
 (8, 8, 8, '2026-05-08 10:00:00', NULL);
 
+INSERT INTO traffic_controllers VALUES
+(1, 'EID109', '2026-03-15'),
+(2, 'EID110', '2026-04-10'),
+(3, 'EID111', '2026-02-20');
 
+INSERT INTO maintenance_records VALUES
+(1, 1, 1, '2026-05-01', 'Engine maintenance', 500.00),
+(2, 2, 2, '2026-05-02', 'Hydraulic system check', 300.00),
+(3, 3, 8, '2026-05-03', 'Electrical systems inspection', 400.00),
+(4, 4, 3, '2026-05-04', 'Landing gear maintenance', 600.00),
+(5, 5, 4, '2026-05-05', 'Fuel system test', 700.00),
+(6, 6, 5, 6, '2026-05-06', 2.0, 95),
+(7, 7, 6, 7, '2026-05-07', 3.5, 89),
+(8, 8, 7, 8, '2026-05-08', 2.5, 92),
+(9, 9, 1, 9, '2026-05-09', 4.5, 73),
+(10, 10, 2, 10, '2026-05-10', 3.0, 86);
+
+INSERT INTO technician_expertise VALUES
+(1, 1),
+(1, 3),
+(2, 2),
+(2, 4),
+(3, 5),
+(3, 10),
+(4, 6),
+(5, 7),
+(5, 8),
+(6, 9),
+(7, 1),
+(7, 2),
+(8, 3),
+(8, 7);
 
 
