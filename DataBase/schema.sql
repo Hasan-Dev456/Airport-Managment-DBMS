@@ -100,4 +100,17 @@ CREATE TABLE maintenance_records (
     cost DECIMAL(10,2),
     FOREIGN KEY (plane_id) REFERENCES airplanes(plane_id),
     FOREIGN KEY (technician_id) REFERENCES technicians(technician_id)
+)
+
+CREATE TABLE test_records (
+    record_id INT PRIMARY KEY,
+    plane_id INT,
+    technician_id INT,
+    test_id INT,
+    test_date DATE,
+    hours_spent DECIMAL(5,2),
+    score INT,
+    FOREIGN KEY (plane_id) REFERENCES airplanes(plane_id),
+    FOREIGN KEY (technician_id) REFERENCES technicians(technician_id),
+    FOREIGN KEY (test_id) REFERENCES tests(test_id)
 );
