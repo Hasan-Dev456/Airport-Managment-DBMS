@@ -124,4 +124,14 @@ INSERT INTO test_records VALUES
 (9, 9, 1, 9, '2026-05-09', 4.5, 73),
 (10, 10, 2, 10, '2026-05-10', 3.0, 86);
 
-
+INSERT INTO flights VALUES
+(1, 1, 1, 'ER1001', 'Ercan Airport', 'Istanbul Airport', '2026-05-01 09:00:00', '2026-05-01 10:30:00'),
+(2, 2, 2, 'ER1002', 'Ercan Airport', 'Ankara Esenboga', '2026-05-02 11:00:00', '2026-05-02 12:20:00'),
+(3, 3, 3, 'ER1003', 'Ercan Airport', 'London Heathrow', '2026-05-03 08:30:00', '2026-05-03 13:30:00'),
+(4, 4, 1, 'ER1004', 'Ercan Airport', 'Dubai International', '2026-05-04 14:00:00', '2026-05-04 18:00:00'),
+(5, 5, 2, 'ER1005', 'Ercan Airport', 'Antalya Airport', '2026-05-05 16:00:00', '2026-05-05 17:10:00'),
+(6, 6, 3, 'ER1006', 'Ercan Airport', 'Izmir Adnan Menderes', '2026-05-06 07:45:00', '2026-05-06 09:00:00'),
+(7, 7, 1, 'ER1007', 'Ercan Airport', 'Frankfurt Airport', '2026-05-07 10:15:00', '2026-05-07 14:00:00'),
+(8, 8, 2, 'ER1008', 'Ercan Airport', 'Paris Charles de Gaulle', '2026-05-08 13:20:00', '2026-05-08 17:10:00'),
+(9, 9, 3, 'ER1009', 'Ercan Airport', 'Beirut Airport', '2026-05-09 12:00:00', '2026-05-09 13:00:00'),
+(10, 10, 1, 'ER1010', 'Ercan Airport', 'Cairo Airport', '2026-05-10 15:30:00', '2026-05-10 17:20:00');

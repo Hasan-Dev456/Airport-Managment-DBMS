@@ -67,16 +67,17 @@ CREATE TABLE traffic_controllers (
     FOREIGN KEY (employee_id) REFERENCES employees(employee_id)
 );
 
-
 CREATE TABLE flights (
     flight_id INT PRIMARY KEY,
     plane_id INT,
+    controller_id INT,
     flight_no VARCHAR(20),
     departure_airport VARCHAR(100),
     arrival_airport VARCHAR(100),
     departure_time DATETIME,
     arrival_time DATETIME,
-    FOREIGN KEY (plane_id) REFERENCES airplanes(plane_id)
+    FOREIGN KEY (plane_id) REFERENCES airplanes(plane_id),
+    FOREIGN KEY (controller_id) REFERENCES traffic_controllers(controller_id)
 );
 
 CREATE TABLE maintenance_records (
