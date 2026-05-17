@@ -89,12 +89,12 @@ INSERT INTO maintenance_records VALUES
 (2, 2, 2, '2026-05-02', 'Hydraulic system check', 300.00),
 (3, 3, 8, '2026-05-03', 'Electrical systems inspection', 400.00),
 (4, 4, 3, '2026-05-04', 'Landing gear maintenance', 600.00),
-(5, 5, 4, '2026-05-05', 'Fuel system test', 700.00),
-(6, 6, 5, 6, '2026-05-06', 2.0, 95),
-(7, 7, 6, 7, '2026-05-07', 3.5, 89),
-(8, 8, 7, 8, '2026-05-08', 2.5, 92),
-(9, 9, 1, 9, '2026-05-09', 4.5, 73),
-(10, 10, 2, 10, '2026-05-10', 3.0, 86);
+(5, 5, 4, '2026-05-05', 'Fuel system maintenance', 700.00),
+(6, 6, 5, '2026-05-06', 'Cabin pressure maintenance', 250.00),
+(7, 7, 6, '2026-05-07', 'Navigation system repair', 450.00),
+(8, 8, 7, '2026-05-08', 'Emergency equipment service', 350.00),
+(9, 9, 1, '2026-05-09', 'Wing structure maintenance', 800.00),
+(10, 10, 2, '2026-05-10', 'Avionics repair', 650.00);
 
 INSERT INTO technician_expertise VALUES
 (1, 1),
