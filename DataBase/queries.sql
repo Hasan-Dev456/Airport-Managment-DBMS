@@ -13,7 +13,7 @@ SELECT e.full_name, e.phone
 FROM employees e
 JOIN traffic_controllers tc ON e.employee_id = tc.employee_id;
 
---4)List Model Name and Hnager Number of all planes that are currently in a hangar.
+--4)List Model Name and Hangar Number of all planes that are currently in a hangar.
 SELECT pm.model_name, h.hangar_no
 FROM airplanes a
 JOIN plane_models pm ON a.model_id = pm.model_id
@@ -65,7 +65,7 @@ FROM tests t
 JOIN test_records tr ON t.test_id = tr.test_id
 WHERE tr.hours_spent > 3 AND tr.score < 80;
 
---12) List the flights that took more than 5 hours.
+--12) List the flights that took more than 3 hours.
 SELECT flight_no, departure_time, arrival_time,
        TIMESTAMPDIFF(HOUR, departure_time, arrival_time) AS flight_time_hours
 FROM flights
